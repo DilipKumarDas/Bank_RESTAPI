@@ -1,8 +1,6 @@
 package com.banking.bank.controller;
 
 import com.banking.bank.dto.AccountDto;
-import com.banking.bank.entity.Account;
-import com.banking.bank.mapper.AccountMapper;
 import com.banking.bank.service.AccountService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

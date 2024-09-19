@@ -7,7 +7,7 @@ import lombok.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "accounts")
+@Table
 public class Account {
     @Id
     @GeneratedValue(strategy =  GenerationType.AUTO)
